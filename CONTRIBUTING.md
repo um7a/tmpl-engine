@@ -69,6 +69,6 @@ Only project maintainers should publish new versions to npm.
 
 If you encounter a problem:
 
-1. Check (open issues)[https://github.com/um7a/tmpl-engine/issues]
-2. If it’s new, (open an issue)[https://github.com/um7a/tmpl-engine/issues/new]
+1. Check [open issues](https://github.com/um7a/tmpl-engine/issues)
+2. If it’s new, [open an issue](https://github.com/um7a/tmpl-engine/issues/new)
 
