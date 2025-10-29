@@ -10,6 +10,18 @@
     "build": "tsc -p tsconfig.build.json",
     "start": "node dist/index.js"
   },
+  "files": [
+    "dist",
+    "package.json",
+    "README.md"
+  ],
+  "exports": {
+    "./jinja2": {
+      "import": "./dist/jinja2/index.js",
+      "require": "./dist/jinja2/index.js",
+      "types": "./dist/jinja2/index.d.ts"
+    }
+  },
   "keywords": [],
   "devDependencies": {
     "@types/node": "^24.9.2",
