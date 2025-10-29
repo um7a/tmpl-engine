@@ -1,0 +1,13 @@
+// This configuration file is for npm run build
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    // File Layout
+    "outDir": "dist",
+    "rootDir": "src",
+    // "declaration": true tells TypeScript to generate type declaration files (.d.ts files)
+    // alongside your compiled .js files.
+    "declaration": true
+  },
+  "include": ["src"]
+}

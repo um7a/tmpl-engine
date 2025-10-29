@@ -1,0 +1,22 @@
+{
+  "name": "tmpl-engine",
+  "version": "0.0.1",
+  "description": "tmpl-engine is a template engine written in Node.js.",
+  "license": "BSD-3-Clause",
+  "author": "um7a",
+  "type": "module",
+  "scripts": {
+    "test": "node --loader ts-node/esm --test",
+    "build": "tsc -p tsconfig.build.json",
+    "start": "node dist/index.js"
+  },
+  "keywords": [],
+  "devDependencies": {
+    "@types/node": "^24.9.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "expr-eval": "^2.0.2"
+  }
+}
