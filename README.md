@@ -17,5 +17,5 @@ const context = { name: 'Alice' };
 const rendered = j2.build(template, context);
 
 console.log(rendered);
-# -> 'Hello Alice!'
+// -> 'Hello Alice!'
 ```

@@ -1,6 +1,6 @@
 import assert from "node:assert/strict";
 import { describe, it } from "node:test";
-import * as j2 from '../src/jinja2.js';
+import * as j2 from '../src/jinja2/index.js';
 
 describe("Jinja2 Template Engine", () => {
   describe("Variable Substitution", () => {
