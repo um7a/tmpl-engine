@@ -1,6 +1,6 @@
 {
   "name": "tmpl-engine",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "tmpl-engine is a template engine written in Node.js.",
   "license": "BSD-3-Clause",
   "author": "um7a",
